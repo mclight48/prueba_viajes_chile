@@ -20,3 +20,8 @@ nav img {
     width: 25px;
     height: 25px;
 }
+
+#section-carousel img {
+    max-height: 666px;
+}
+ 
