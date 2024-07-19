@@ -8,6 +8,16 @@ body {
     width: 80%;
 }
 
+h2 {
+    border-bottom: 1px solid #ffffff33;
+}
+
+#quienes_somos p,
+#cards p {
+   font-size: 14px;
+   color: #fff;
+}
+
 nav {
     font-size: 16px;
 }
@@ -24,4 +34,9 @@ nav img {
 #section-carousel img {
     max-height: 666px;
 }
+
+#quienes_somos i {
+    vertical-align: middle;
+}
+ 
  
