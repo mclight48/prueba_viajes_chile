@@ -19,8 +19,15 @@ h2 {
     border-bottom: 1px solid #ffffff33;
 }
 
-#cards h2 {
-   width: 95%;
+#cards h2,
+#section-form h2 {
+    width: 95%;
+}
+
+nav,
+#section-form input,
+#section-form textarea {
+    font-size: 16px;
 }
 
 #quienes_somos p,
@@ -29,9 +36,6 @@ h2 {
     color: #fff;
 }
 
-nav {
-    font-size: 16px;
-}
 
 nav .navbar-brand {
     font-size: 18px;
@@ -53,8 +57,17 @@ nav img {
 #cards img {
     max-height: 120px;
 }
- 
+
 #cards h5 {
     font-size: 16px;
     color: #fff;
+}
+
+.alert {
+    display: none;
+}
+
+#section-form label,
+#section-form .btn {
+    font-size: 14px;
 }
