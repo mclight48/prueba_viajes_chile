@@ -71,3 +71,22 @@ nav img {
 #section-form .btn {
     font-size: 14px;
 }
+
+footer>div.container-fluid {
+    width: 60%;
+}
+
+footer span {
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 576px) {
+    footer>div.container-fluid {
+        width: 80%;
+    }
+
+    footer span {
+        font-size: 18px;
+    }
+}
