@@ -4,6 +4,13 @@ body {
     background-color: #242423;
 }
 
+.icon,
+#cards .card-body,
+#section-form .btn,
+footer {
+    background-color: #3498DB;
+}
+
 .w-80 {
     width: 80%;
 }
@@ -12,10 +19,14 @@ h2 {
     border-bottom: 1px solid #ffffff33;
 }
 
+#cards h2 {
+   width: 95%;
+}
+
 #quienes_somos p,
 #cards p {
-   font-size: 14px;
-   color: #fff;
+    font-size: 14px;
+    color: #fff;
 }
 
 nav {
@@ -38,5 +49,12 @@ nav img {
 #quienes_somos i {
     vertical-align: middle;
 }
+
+#cards img {
+    max-height: 120px;
+}
  
- 
+#cards h5 {
+    font-size: 16px;
+    color: #fff;
+}
